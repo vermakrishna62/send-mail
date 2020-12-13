@@ -8,8 +8,10 @@
    </body>
   
    <script type="text/javascript">
-      $("#click-btn").click(function(){
+     $(document).ready(function(){
+         $("#click-btn").click(function(){
          alert("Hello");
       });
+     });
    </script>
 </html>
